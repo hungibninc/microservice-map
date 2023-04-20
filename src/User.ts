@@ -4,10 +4,8 @@ class User {
   name: string;
   location: {
     lat: number;
-    long: number;
-  }
+    lng: number;
+  };
 
-  constructor(){
-
-  }
+  constructor() {}
 }
